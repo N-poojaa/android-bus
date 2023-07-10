@@ -48,7 +48,6 @@ public class DeleteBusActivity extends AppCompatActivity {
                         public void onDataChange(@NonNull DataSnapshot snapshot) {
                             if(snapshot.exists()) {
 
-
                                 DeleteBus();
                             } else {
                                 Toast.makeText(DeleteBusActivity.this, "ID doesn't exists", Toast.LENGTH_SHORT).show();
